@@ -1,0 +1,14 @@
+.statWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.totalWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: olive;
+  font-weight: 600;
+}

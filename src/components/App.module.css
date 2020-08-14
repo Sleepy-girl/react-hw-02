@@ -1,0 +1,7 @@
+.wrapper {
+  margin: 50px auto;
+  width: 360px;
+  border: 1px solid olive;
+  padding: 30px;
+  font-family: italic;
+}

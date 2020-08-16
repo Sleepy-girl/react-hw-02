@@ -3,13 +3,9 @@ import Section from './section/Section';
 import FeedbackOptions from './feedbackOptions/FeedbackOptions';
 import Notification from './notification/Notification';
 import Statistics from './statistics/Statistics';
-import PropTypes from 'prop-types';
 import style from './App.module.css';
 
 class App extends Component {
-  static propTypes = {};
-  static defaultProps = {};
-
   state = {
     good: 0,
     neutral: 0,
@@ -62,11 +58,5 @@ class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
-};
 
 export default App;

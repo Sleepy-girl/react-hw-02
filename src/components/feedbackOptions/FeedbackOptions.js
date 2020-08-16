@@ -1,6 +1,5 @@
 import React from 'react';
-import style from './FeedbackOptions.module.css';
-import PropTypes from 'prop-types';
+// import style from './FeedbackOptions.module.css';
 
 function FeedbackOptions({ onClick }) {
   return (
@@ -19,9 +18,5 @@ function FeedbackOptions({ onClick }) {
     </>
   );
 }
-
-FeedbackOptions.propTypes = {
-  onClick: PropTypes.func,
-};
 
 export default FeedbackOptions;

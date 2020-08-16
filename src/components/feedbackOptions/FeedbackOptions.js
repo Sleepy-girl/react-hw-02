@@ -1,5 +1,5 @@
 import React from 'react';
-// import style from './FeedbackOptions.module.css';
+import style from './FeedbackOptions.module.css';
 
 function FeedbackOptions({ onClick }) {
   return (

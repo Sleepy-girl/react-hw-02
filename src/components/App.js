@@ -12,10 +12,10 @@ class App extends Component {
     bad: 0,
   };
 
-  handleChange = e => {
-    e.persist();
+  handleChange = name => {
+    // e.persist();
     this.setState(prevState => ({
-      [e.target.name]: prevState[e.target.name] + 1,
+      [name]: prevState[name] + 1,
     }));
   };
 
